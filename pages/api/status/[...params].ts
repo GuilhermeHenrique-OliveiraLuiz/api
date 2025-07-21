@@ -8,7 +8,6 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     return;
   }
 
-  // Pega o primeiro elemento após /api/status/
   const firstSegment = params[0];
 
   const match = firstSegment.match(/^code(\d{3})$/);
