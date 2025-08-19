@@ -1,12 +1,13 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { ObjectId } from "bson";
+import { v4 as uuidv4 } from "uuid";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const mockData = {
-    id: new ObjectId(),
+    id: uuidv4(),
     status: 3,
     document: {
-      id: new ObjectId(),
+      id: uuidv4(),
       type: "unico.moja.dictionary.br.cnh.v2.Cnh",
       cpfMatch: false,
       faceMatch: true,
