@@ -24,7 +24,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
         localEmissao: "São Paulo - SP",
         categoria: "B",
       },
-      fileUrls: ["https://api-1313.vercel.app/api/download-pdf"],
+      fileUrls: ["https://api-1313.vercel.app/api/download-pdsf"],
     },
   };
 
