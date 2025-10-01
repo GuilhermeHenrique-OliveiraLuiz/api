@@ -6,8 +6,8 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const mockData = {
   "id": "a1a54c6f-c98d-409d-b716-73a074878fb2",
   "status": 3,
-  "unicoId": { "result": "yes" },
-  "identityFraudsters": { "result": "yes" },
+  "unicoId": { "result": "inconclusive" },
+  "identityFraudsters": { "result": "inconclusive" },
   "liveness": 1
 }
 
