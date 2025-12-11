@@ -5,7 +5,6 @@ import { v4 as uuidv4 } from "uuid";
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const mockData = {
     id: new ObjectId(),
-    id: uuidv4(),
     status: 3,
     document: {
       id: new ObjectId(),
