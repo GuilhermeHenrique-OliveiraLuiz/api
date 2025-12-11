@@ -7,7 +7,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     id: new ObjectId(),
     status: 3,
     document: {
-      id: new ObjectId(),
+      id: uuidv4(),
       type: "unico.moja.dictionary.br.cnh.v2.Cnh",
       cpfMatch: false,
       faceMatch: true,
