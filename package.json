@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "bson": "^6.10.4",
-    "next": "latest",
+    "next": "15.5.7",
     "react": "latest",
     "react-dom": "latest",
     "uuid": "^11.1.0"
